@@ -2,14 +2,14 @@
 Las llaves de encriptación que se utilizan son las siguientes:
 (Solo funciona con teclas minúsculas y sin acentos)
 
-    `La letra "e" es convertida para "enter"`
-    `La letra "i" es convertida para "imes"`
-    `La letra "a" es convertida para "ai"`
-    `La letra "o" es convertida para "ober"`
-    `La letra "u" es convertida para "ufat"`
+`La letra "e" es convertida para "enter"`
+`La letra "i" es convertida para "imes"`
+`La letra "a" es convertida para "ai"`
+`La letra "o" es convertida para "ober"`
+`La letra "u" es convertida para "ufat"`
 
-    Ejemplo:
-    `"Bienvenido a mi repositorio" => "Bimesenternventernimesdober ai mimes renterpobersimestoberrimesober"`
+Ejemplo:
+`"Bienvenido a mi repositorio" => "Bimesenternventernimesdober ai mimes renterpobersimestoberrimesober"`
 
 # Encriptación y Desencriptación
 La función "encrypt" tiene una varliable local a la cual se le asigna el valor de "input". 
