@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="icon" href="/assets/logos/favicon.svg"/>
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Encriptador Alura</title>
 </head>
 <body>
-    
+    <header>
+        <div id="logo">
+            <img src="/assets/logos/Logo.svg" alt="Logo de Alura">
+        </div>
+    </header>
+
+    <div id="input-text">
+        <textarea id="text" autofocus name="text" placeholder="Ingrese el texto aquí"></textarea>
+        <div id="warning-container">
+            <img id="warning-sign" src="/assets/images/Warning.svg" alt="Señal de advertencia">
+            <p id="warning">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="btn-group">
+            <button id="encrypt-btn">Encriptar</button>
+            <button id="decrypt-btn">Desencriptar</button>   
+        </div>
+    </div>
+        
+    <div id="result-text">
+        <div id="inner-result-text">
+            <div id="ilustration-info">
+                <img id="ilustration" src="/assets/images/Muñeco.svg" alt="ilustracion de un personaje examinando un diamante">
+                <div id="text-1">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                </div>
+                <div id="text-2">
+                    <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+                </div>
+            </div>
+            <div id="display-text">
+                <div id="displayed-text">
+
+                </div>
+                <div id="btn-container">
+                    <button id="copy-btn">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Ruggeri Juan Manuel | 2022</h3>
+    </footer>
+
+    <!--Javascript-->
+    <script src="/scripts/scripts.js"></script>
 </body>
 </html>
